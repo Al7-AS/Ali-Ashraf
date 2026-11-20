@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Ali Ashraf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+  <header id="site-header"></header>
+
+  <main class="page">
+    <div class="section-label reveal">
+      <small data-i18n="contact.label">Get in Touch</small>
+      <h3 data-i18n-html="contact.title">Let's Work <span>Together!</span></h3>
+    </div>
+
+    <div class="contact-grid">
+      <div class="panel contact-info reveal">
+        <h4 data-i18n="contact.infoTitle">Contact Info</h4>
+        <p data-i18n="contact.infoText">
+          Feel free to contact me for any project or collaboration: web apps, designs,
+          video editing, or a new business idea you want to make real.
+        </p>
+        <div class="hero-actions" style="margin-top:22px;">
+          <a href="mailto:ly7444743@gmail.com" class="btn-primary" data-i18n="contact.emailBtn">Email Me</a>
+        </div>
+      </div>
+
+      <div class="panel contact-form-box reveal">
+        <h4 data-i18n="contact.formTitle">Send a Message</h4>
+        <form class="contact-form" id="contactForm" data-to="ly7444743@gmail.com">
+          <input type="text" name="name" placeholder="Your name" data-i18n-placeholder="contact.phName" required>
+          <input type="email" name="email" placeholder="Your email" data-i18n-placeholder="contact.phEmail" required>
+          <textarea name="message" placeholder="Tell me about your project" data-i18n-placeholder="contact.phMessage" required></textarea>
+          <button type="submit" class="btn-primary" data-i18n="contact.send">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer" id="site-footer"></footer>
+  <script src="script.js"></script>
+  <script src="enhance.js"></script>
+</body>
+</html>
